@@ -1,4 +1,6 @@
+class_name PlayerCharacter
 extends CharacterBody2D
+
 
 const SPEED = 150
 const GRAVITY = 50
