@@ -194,7 +194,7 @@ animations = [{
 }],
 "loop": 1,
 "name": &"walk",
-"speed": 5.0
+"speed": 15.0
 }]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_kwd2h"]
@@ -206,7 +206,7 @@ script = ExtResource("1_pb3n0")
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="." unique_id=1375192028]
 texture_filter = 1
 sprite_frames = SubResource("SpriteFrames_gyyv3")
-animation = &"hurt"
+animation = &"walk"
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=106523079]
 position = Vector2(-0.5, 4)
