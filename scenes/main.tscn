@@ -9,6 +9,7 @@
 script = ExtResource("1_sugp2")
 
 [node name="Camera2D" type="Camera2D" parent="." unique_id=235104016 node_paths=PackedStringArray("player_character")]
+zoom = Vector2(2.5, 2.5)
 script = ExtResource("2_jyhfs")
 player_character = NodePath("../PlayerCharacter")
 
